@@ -1,9 +1,8 @@
 #pragma once
 #include <iostream>
-#pragma once
-#include <iostream>
 #include <fstream>
 #include <string>
+
 using std::string;
 using std::cout;
 using std::endl;
@@ -30,7 +29,6 @@ struct Source
 	char genre[SIZE]{};
 	int year;
 };
-
 
 void fillDB();
 void editSource(Source& source);
